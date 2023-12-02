@@ -1,0 +1,40 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("https://media.lesechos.com/api/v1/images/view/64db24d5c69a48072b0b04ea/1280x720/352411-rose-pivoine-muguet-l-eclatante-renaissance-de-la-fleur-francaise-rose-pivoine-muguet-leclatante-renaissance-de-la-fleur-francaise-web-tete-090835613980-2541150.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}

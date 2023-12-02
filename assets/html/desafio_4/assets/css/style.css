@@ -1,0 +1,24 @@
+body{
+    font-family: roboto, ;
+}
+
+nav,footer{
+    background-color: green;
+}
+
+.row{
+    margin-top: 5%;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+.img-log{
+    width: 100px;
+    height: 100px;
+}
+
+#pay{
+    height: 300px;
+}
